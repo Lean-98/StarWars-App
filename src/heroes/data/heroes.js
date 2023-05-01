@@ -48,14 +48,6 @@ export const heroes = [
         'characters':'Princess Diana'
     },
     {
-        'id': 'dc-martian',
-        'superhero':'Martian Manhunter', 
-        'publisher':'DC Comics', 
-        'alter_ego':'J\'onn J\'onzz',
-        'first_appearance':'Detective Comics #225',
-        'characters':'Martian Manhunter'
-    },
-    {
         'id': 'dc-robin',
         'superhero':'Robin/Nightwing', 
         'publisher':'DC Comics', 
@@ -126,14 +118,6 @@ export const heroes = [
         'alter_ego':'James Howlett',
         'first_appearance':'The Incredible Hulk #180',
         'characters':'James Howlett'
-    },
-    {
-        'id': 'marvel-daredevil',
-        'superhero':'Daredevil', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Matthew Michael Murdock',
-        'first_appearance':'Daredevil #1',
-        'characters':'Matthew Michael Murdock'
     },
     {
         'id': 'marvel-hawkeye',
