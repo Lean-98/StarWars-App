@@ -30,7 +30,8 @@ export const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <Link className="navbar-brand d-flex justify-content-center" to="/search">
-            Star Wars
+            <img src="..\assets\characterStarWars\ico-starwars.ico" 
+            alt="Star Wars" width="80px" height="60px" />
           </Link>
 
           <div className="navbar-collapse">
@@ -66,7 +67,7 @@ export const Navbar = () => {
 
           <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
             <ul className="navbar-nav ml-auto">
-              <span className="nav-item nav-link text-info">{user?.name}</span>
+              <span className="nav-item nav-link text-warning">{user?.name}</span>
 
               <button className="nav-item nav-link btn" onClick={onLogout}>
                 Logout

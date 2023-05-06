@@ -25,7 +25,7 @@ export const CharacterStarWars = ({
                 <span className='fw-bold'>First appearance:</span> <br />
                 {first_appearance}
               </p>
-              
+
               <Link to={`/character/${id}`}><button className={"btn btn-md ms-4 " + ( publisher === 'Jedi' ? 'btn-success' : 'btn-danger')}>More info...</button></Link>
             </div>
           </div>

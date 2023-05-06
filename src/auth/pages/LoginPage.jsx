@@ -23,9 +23,9 @@ export const LoginPage = () => {
         <div className="row row-cols-lg-2">
           <div className="col col-sm-5 col-md-6 col-lg-7 d-lg-flex mb-3">
             <img
-              src="..\assets\characterStarWars\loginSEO02.jpg"
+              src="..\assets\characterStarWars\SEOStarWars.webp"
               alt="Star Wars"
-              className="img rounded-t-5 rounded-tr-lg-4 rounded-bl-lg-5"
+              className="rounded-t-5 rounded-tr-lg-4 rounded-bl-lg-5"
             />
           </div>
           <div className="col col-sm-7 col-md-6 col-lg-5  text-center text-lg-start">
@@ -38,7 +38,7 @@ export const LoginPage = () => {
                     className="form-control" 
                     required
                   />
-                  <label className="form-label text-primary" >
+                  <label className="form-label text-warning" >
                     Email address
                   </label>
                 </div>
@@ -49,12 +49,12 @@ export const LoginPage = () => {
                     name="password"
                     className="form-control" required
                   />
-                  <label className="form-label text-primary" >
+                  <label className="form-label text-warning" >
                     Password
                   </label>
                 </div>
 
-                <button className="btn btn-primary btn-lg" onClick={onLogin}>
+                <button className="btn btn-warning btn-lg" onClick={onLogin}>
                   Login
                 </button>
               </form>

@@ -1,5 +1,9 @@
+
 body {
     background-color: #F1F1F1;
+}
+a {
+    text-decoration:none;
 }
 
 .my-card {
@@ -81,9 +85,14 @@ body {
 }
 
 .login {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #232931;
     margin-top: 10rem;
 }
 
+.footer-container {
+    background-color: #F1F1F1;
+    margin-top: 6rem;
+}
+.footer-copyright{
+    background-color: rgba(0, 0, 10, 0.2);
+}

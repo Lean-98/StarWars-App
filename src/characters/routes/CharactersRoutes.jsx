@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import { Navbar } from '../../ui';
+import {  Footer, Navbar } from '../../ui';
 
 
 
@@ -9,6 +9,8 @@ export const CharactersRoutes = () => {
       <Navbar />
       <div className="container">
         <Outlet />
+        
+        <Footer />
       </div>
     </>
   );

@@ -29,7 +29,7 @@ export const SearchPage = () => {
     <>
       <div className="container">
         <div className="row row-cols-md-2 row-cols-lg-2 row-cols-xl-2 g-2">
-          <h1 className="text-center p-4">Most Powerful Characters of The Star Wars Saga</h1>
+          <h1 className="fw-semibold text-center p-4">Most Powerful Characters of The Star Wars Saga</h1>
           <hr />
           <div className="col-sm-12 col-md-6 col-lg-6 mb-3">
             <h4 className="d-flex justify-content-around justify-content-md-start">
@@ -47,7 +47,7 @@ export const SearchPage = () => {
                 onChange={onInputChange}
               />
 
-              <button className="btn btn-outline-primary mt-2">Search</button>
+              <button className="btn btn-warning mt-2">Search</button>
             </form>
           </div>
 
@@ -65,7 +65,7 @@ export const SearchPage = () => {
             } */}
 
             <div
-              className="alert alert-primary animate__animated animate_fadeIn"
+              className="alert alert-warning animate__animated animate_fadeIn"
               style={{ display: showSearch ? "" : "none" }}
             >
               Search for a character from the star wars saga

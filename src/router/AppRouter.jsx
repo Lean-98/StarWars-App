@@ -3,11 +3,12 @@ import { ErrorPage, CharactersRoutes, childCharactersRoutes } from '../character
 import { LoginPage } from '../auth';
 import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
+import { FooterLogin } from '../ui';
 
 const router = createBrowserRouter([
   {
     path: "/login",
-    element: <PublicRoute> <LoginPage /> </PublicRoute> ,
+    element: <PublicRoute> <LoginPage /> <FooterLogin /></PublicRoute> ,
   },
   {
     path: "/",
