@@ -8,7 +8,7 @@ import { FooterLogin } from '../ui';
 const router = createBrowserRouter([
   {
     path: "/login",
-    element: <PublicRoute> <LoginPage /> <FooterLogin /></PublicRoute> ,
+    element: <PublicRoute> <LoginPage /> <FooterLogin /> </PublicRoute> ,
   },
   {
     path: "/",
