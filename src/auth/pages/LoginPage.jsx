@@ -21,14 +21,14 @@ export const LoginPage = () => {
     <section className="login">
       <div className="card mb-1">
         <div className="row row-cols-lg-2">
-          <div className="col col-sm-5 col-md-6 col-lg-7 d-lg-flex mb-3">
+          <div className="col col-sm-0 col-md-6 col-lg-7 d-lg-flex mb-3">
             <img
               src="..\assets\characterStarWars\SEOStarWars.webp"
               alt="Star Wars"
-              className="rounded-t-5 rounded-tr-lg-4 rounded-bl-lg-5"
+              className="img-responsive rounded-t-5 rounded-tr-lg-4 rounded-bl-lg-5"
             />
           </div>
-          <div className="col col-sm-7 col-md-6 col-lg-5  text-center text-lg-start">
+          <div className="col col-sm-12 col-md-6 col-lg-5  text-center text-lg-start">
             <div className="card-body py-5 px-md-5">
               <form>
                 <div className="form-outline mb-4">

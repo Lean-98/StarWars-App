@@ -96,3 +96,11 @@ a {
 .footer-copyright{
     background-color: rgba(0, 0, 10, 0.2);
 }
+
+
+@media (max-width: 600px) {
+    .img-responsive {
+        height: 300px;
+        width: 400px;
+        }
+}

@@ -13,7 +13,7 @@ export const CharacterStarWars = ({
 
   return (
     <div className="my-card">
-      <img src={characterImageUrl} className="img img-responsive" alt={id} />
+      <img src={characterImageUrl} className="img img-fluid" alt={id} />
       <div className="profile-name fw-medium">{character}</div>
       <div className="profile-position fw-normal">{rank}</div>
       <div className="profile-overview">
