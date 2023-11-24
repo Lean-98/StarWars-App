@@ -1,5 +1,11 @@
-import { Navigate } from 'react-router-dom';
-import { CharacterPage, JediPage, SithPage, SearchPage } from '../pages';
+import { Navigate } from "react-router-dom";
+import {
+  CharacterPage,
+  JediPage,
+  SithPage,
+  SearchPage,
+  NotFoundPage,
+} from "../pages";
 
 export const childCharactersRoutes = [
   {
@@ -15,11 +21,15 @@ export const childCharactersRoutes = [
     element: <SearchPage />,
   },
   {
+    path: "/notfound",
+    element: <NotFoundPage />,
+  },
+  {
     path: "/character/:id",
     element: <CharacterPage />,
   },
   {
     path: "/*",
-    element: <Navigate to={"/"} />,
+    element: <Navigate to={"/notfound"} />,
   },
 ];

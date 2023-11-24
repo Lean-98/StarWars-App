@@ -1,9 +1,7 @@
-
-
 export const FooterLogin = () => {
   return (
     <>
-      <footer className="footer-container text-center text-white">
+      <footer className="footer-container text-center text-body">
         <div className="container p-4">
           <section className="">
             <div className="row d-flex justify-content-center">
@@ -21,8 +19,17 @@ export const FooterLogin = () => {
           </section>
         </div>
 
-        <div className="footer-copyright text-center p-3 m-auto">© 2023 Copyright:
-          <a className="text-warning" href="https://github.com/Lean-98" target="_blank" rel="noreferrer"> Leeo-98</a>
+        <div className="footer-copyright text-center p-3 m-auto">
+          © 2023 Copyright:
+          <a
+            className="text-dark"
+            href="https://github.com/Lean-98"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Leeo-98
+          </a>
         </div>
       </footer>
     </>

@@ -1,6 +1,6 @@
-import { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../context';
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../context";
 
 export const LoginPage = () => {
   const { login } = useContext(AuthContext);
@@ -15,7 +15,6 @@ export const LoginPage = () => {
       replace: true,
     });
   };
-  
 
   return (
     <section className="login">
@@ -32,26 +31,25 @@ export const LoginPage = () => {
             <div className="card-body py-5 px-md-5">
               <form>
                 <div className="form-outline mb-4">
+                  <label className="form-label text-warning">
+                    Email address
+                  </label>
                   <input
                     type="email"
                     name="email"
-                    className="form-control" 
+                    className="form-control"
                     required
                   />
-                  <label className="form-label text-warning" >
-                    Email address
-                  </label>
                 </div>
 
                 <div className="form-outline mb-4">
+                  <label className="form-label text-warning">Password</label>
                   <input
                     type="password"
                     name="password"
-                    className="form-control" required
+                    className="form-control"
+                    required
                   />
-                  <label className="form-label text-warning" >
-                    Password
-                  </label>
                 </div>
 
                 <button className="btn btn-warning btn-lg" onClick={onLogin}>
@@ -65,5 +63,3 @@ export const LoginPage = () => {
     </section>
   );
 };
-
-
